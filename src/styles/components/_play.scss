@@ -1,0 +1,118 @@
+.questions {
+  background-color: $off-white;
+  border-left: 9px solid rgb(75, 193, 240);
+  width: 88%;
+  margin: $md;
+  padding: $sm $md;
+  margin-left: center;
+  height: 70%;
+  margin-bottom: 20px;
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    // border-right: 10px;
+    // margin: 5px;
+    // padding: 10px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto $sm auto;
+    padding: 12px;
+    width: 40%;
+  }
+
+  .lifeline-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .lifeline {
+    position: relative;
+    top: -4px;
+  }
+  h4 {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+  }
+  .options-container {
+    display: inline-block;
+    width: 50%;
+  }
+  .option {
+    background-color: rgb(75, 193, 240);
+    border-radius: 30px;
+    color: white;
+    margin: 40px auto;
+    cursor: pointer;
+    text-align: center;
+    width: 80%;
+    padding: 14px;
+    box-shadow: rgb(39, 109, 48) 20 10 65 3 rgb(83, 137, 238);
+    transition: 0.3s linear all;
+  }
+  .option:hover {
+    background-color: darken(rgb(113, 178, 240), 20%);
+  }
+}
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto $sm auto;
+  padding: $md;
+  width: 90%;
+}
+.button-container button {
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: $md;
+  padding: $xs $sm;
+}
+.button-container button:first-child {
+  background-color: darken(blue, 10%);
+  box-shadow: rebeccapurple 20 10 65 3 blue;
+  transition: 0.2s linear all;
+}
+.button-container button:first-child:hover {
+  background-color: darken(rgb(84, 84, 214), 30%);
+}
+.button-container button:nth-child(2) {
+  background-color: darken(rgb(41, 233, 83), 10%);
+  box-shadow: rgb(68, 216, 142) 20 10 65 3 rgb(6, 126, 100);
+  transition: 0.2s linear all;
+}
+.button-container button:nth-child(2):hover {
+  background-color: darken(rgb(36, 173, 77), 20%);
+}
+.button-container button:nth-child(3) {
+  background-color: darken(rgb(226, 58, 58), 10%);
+  box-shadow: rgb(213, 216, 39) 20 10 65 3 rgb(200, 93, 50);
+  transition: 0.2s linear all;
+}
+.button-container button:nth-child(3):hover {
+  background-color: darken(rgb(209, 87, 82), 30%);
+}
+#out-questions {
+  border-radius: 4px;
+  border: 2px solid black;
+  margin: auto;
+  padding: auto;
+
+  color: rgb(48, 3, 3);
+}
+#time-counter {
+  border: 2px solid black;
+
+  margin: auto;
+
+  padding: auto;
+  border-radius: 4px;
+  color: rgb(48, 3, 3);
+}
